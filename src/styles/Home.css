@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50pt;
+    color: black;
+    text-decoration: none;
+}
+
+.home {
+    color: blue;
+    font-size: 40pt;
+    text-decoration: none;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: white;
+}
+
+.titles {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.left {
+    display: flex;
+    align-items: center; 
+    padding: 1rem;
+    padding-top: 3rem;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+    padding: 3rem;
+}
+
+.right {
+    width: 200px;
+}
+
+.top-line { 
+    border: none;
+    height: 1.5px;
+    color: black !important;
+    background-color: black !important; 
+    border-color: black !important;
+}
+
+.menu-bar {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-inner {
+    padding: 0;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+}
+
+h2.bar-text {
+    font-weight: normal;
+    font-size: 25pt;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.main-body {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    line-height: 1.6;
+}
+
+.top-body {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.top-project {
+    max-width: 800px;
+    margin: 2rem auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1rem;
+    line-height: 1.6;
+}
+
+.top-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.picture {
+    width: 500px;
+}
+
+.flexbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
